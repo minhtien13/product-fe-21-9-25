@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- foot -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./fontawesome-free-6/css/all.min.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <p class="menu-mobile-close" onclick="shoeMenuBile()">
+      <i class="fa-solid fa-xmark"></i>
+    </p>
+    <div class="menu-mobile-overlay" onclick="shoeMenuBile()"></div>
+    <div class="menu-mobile">
+      <div class="logo">
+        <a href="#" class="logo-link">
+          <img src="./images/logo.svg" alt="" />
+          <span>Coffee</span>
+        </a>
+      </div>
+      <div class="menu">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="" class="menu-link">Trang chủ</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">sản phẩm</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">tin tức</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">liên hệ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header class="header">
+      <button class="btn menu-mobile-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="logo">
+        <a href="#" class="logo-link">
+          <img src="./images/logo.svg" alt="" />
+          <span>Coffee</span>
+        </a>
+      </div>
+      <div class="menu">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="" class="menu-link">Trang chủ</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">sản phẩm</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">tin tức</a>
+          </li>
+          <li class="menu-item">
+            <a href="" class="menu-link">liên hệ</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="slider">
+      <div class="slider-list">
+        <div class="slider-item">
+          <img
+            src="https://images.unsplash.com/photo-1556740767-414a9c4860c1?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            class="slider-images"
+          />
+        </div>
+        <div class="slider-item">
+          <img
+            src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            class="slider-images"
+          />
+        </div>
+        <div class="slider-item">
+          <img
+            src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?q=80&w=884&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            class="slider-images"
+          />
+        </div>
+      </div>
+      <button class="btn prev" id="prev">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="btn next">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <main class="main">
+      <section class="main-product">
+        <h2 class="main-heading">sản phẩm nội bật</h2>
+        <ul class="main-product__list">
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000</span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000</span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000</span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000 <sub>đ</sub></span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000 <sub>đ</sub></span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000 <sub>đ</sub></span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000 <sub>đ</sub></span>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="banner">
+        <div class="banner-list">
+          <div class="banner-item">
+            <img src="./images/banner1.jpg" alt="" class="banner-image" />
+          </div>
+          <div class="banner-item">
+            <img src="./images/banner2.jpg" alt="" class="banner-image" />
+          </div>
+          <div class="banner-item">
+            <img src="./images/banner3.jpg" alt="" class="banner-image" />
+          </div>
+          <div class="banner-item">
+            <img src="./images/banner4.jpg" alt="" class="banner-image" />
+          </div>
+        </div>
+      </section>
+
+      <section class="main-product main-product-column-5">
+        <h2 class="main-heading">Coffee trung nguyên</h2>
+        <ul class="main-product__list">
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000</span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000</span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000</span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000 <sub>đ</sub></span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000 <sub>đ</sub></span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000 <sub>đ</sub></span>
+            </div>
+          </li>
+          <li class="main-product__list-item">
+            <a href="#" class="main-product__list-image">
+              <img
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+            <a href="#" class="main-product__list-title">
+              <h3>Coffee Sữa nóng</h3>
+            </a>
+            <div class="main-product__list-bottom">
+              <span class="price"><s>55.000</s></span>
+              <span class="price price_sale">48.000 <sub>đ</sub></span>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contact">
+        <div class="contact-wrapper">
+          <h2 class="main-heading">Liên Hệ với chung tôi</h2>
+          <form action="" class="contact-form">
+            <div class="row contact-row-top">
+              <div class="col col-5">
+                <label for="" class="contact-label">Họ</label>
+                <input type="text" class="contact-input" />
+              </div>
+              <div class="col col-5">
+                <label for="" class="contact-label">Tên</label>
+                <input type="text" class="contact-input" />
+              </div>
+            </div>
+            <div class="row contact-row-section">
+              <div class="col col-1">
+                <label for="" class="contact-label">Số Điện thoại</label>
+                <input type="text" class="contact-input" />
+              </div>
+            </div>
+            <div class="row contact-row-section">
+              <div class="col col-1">
+                <label for="" class="contact-label">Email</label>
+                <input type="text" class="contact-input" />
+              </div>
+            </div>
+            <div class="row contact-row-section">
+              <div class="col col-1">
+                <label for="" class="contact-label">Ghi Chú</label>
+                <input type="text" class="contact-input" />
+              </div>
+            </div>
+            <div class="row contact-row-section">
+              <div class="col col-1">
+                <button class="btn contact-btn">giử</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-widget">
+        <div class="footer-list">
+          <div class="footer-item">
+            <h3 class="widget-heading">Vê Chung Tôi</h3>
+            <div class="widget-wrapper">
+              <p class="widget-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                ipsum quia possimus deleniti soluta repellat, hic distinctio
+              </p>
+            </div>
+          </div>
+          <div class="footer-item">
+            <h3 class="widget-heading">Chính Sánh</h3>
+            <ul class="widget-list">
+              <li class="widget-item">
+                <a href="#" class="widget-link">Chính sánh bảo mật</a>
+              </li>
+              <li class="widget-item">
+                <a href="#" class="widget-link">Thanh toán</a>
+              </li>
+              <li class="widget-item">
+                <a href="#" class="widget-link">Dịch vụ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

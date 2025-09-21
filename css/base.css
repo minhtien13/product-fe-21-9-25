@@ -1,0 +1,23 @@
+:root {
+  --color-dark: #333;
+  --color-white: #fff;
+  --text-color: #666;
+  --primary-color: #000;
+}
+
+input {
+  border: 1px solid var(--text-color);
+}
+.btn {
+  border: none;
+  padding: 15px 10px;
+  font-size: 1.2rem;
+  background-color: #e9e9e9;
+  color: var(--text-color);
+  transition: all linear 0.5s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--text-color);
+  color: var(--color-white);
+}
