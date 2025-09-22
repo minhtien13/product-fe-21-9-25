@@ -496,7 +496,7 @@ body {
     margin-bottom: 5px;
   }
   .contact-input {
-    height: 40px;
+    min-height: 40px;
     font-size: 18px;
     border-radius: 2px;
   }
