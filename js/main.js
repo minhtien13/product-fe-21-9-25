@@ -64,3 +64,23 @@ function shoeMenuBile() {
   MenuMobileOverlzy.classList.toggle("show");
   MenuMobile.classList.toggle("show");
 }
+
+// Back top
+const bavkTop = document.querySelector("#backtop");
+window.addEventListener("scroll", function () {
+  const scrollMin = 500;
+  if (window.pageYOffset > scrollMin) {
+    bavkTop.classList.add("show");
+  } else {
+    bavkTop.classList.remove("show");
+  }
+});
+
+$("#backtop").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: 0,
+    },
+    1000
+  );
+});
